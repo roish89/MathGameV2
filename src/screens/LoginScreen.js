@@ -30,7 +30,7 @@ export default function LoginScreen() {
         break;
 
       case "auth/user-not-found":
-        alert("החשבון לא קיים");
+        alert("החשבון לא קיים נקודה");
         break;
 
       case "auth/wrong-password":
