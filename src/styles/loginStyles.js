@@ -7,7 +7,29 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#f2f6ff",
-    padding: 20,
+    padding: 24,
+  },
+
+  logoArea: {
+    alignItems: "center",
+    marginBottom: 30,
+  },
+
+  logoEmoji: {
+    fontSize: 60,
+    marginBottom: 8,
+  },
+
+  loginTitle: {
+    fontSize: 34,
+    fontWeight: "bold",
+    color: "#4a90e2",
+    marginBottom: 6,
+  },
+
+  loginSubtitle: {
+    fontSize: 16,
+    color: "#888",
   },
 
   loginCard: {
@@ -15,57 +37,66 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     borderRadius: 25,
     padding: 25,
-
     shadowColor: "#000",
     shadowOpacity: 0.1,
     shadowRadius: 10,
     elevation: 5,
   },
 
-  loginTitle: {
-    fontSize: 34,
-    fontWeight: "bold",
-    textAlign: "center",
-    marginBottom: 10,
-    color: "#4a90e2",
-  },
-
-  loginSubtitle: {
-    textAlign: "center",
-    marginBottom: 30,
-    color: "gray",
-    fontSize: 16,
-  },
-
   loginInput: {
-    borderWidth: 1,
-    borderColor: "#ddd",
-    borderRadius: 15,
+    borderWidth: 1.5,
+    borderColor: "#e0e6f0",
+    borderRadius: 14,
     padding: 15,
-    marginBottom: 15,
-    fontSize: 18,
-    backgroundColor: "#fafafa",
+    marginBottom: 14,
+    fontSize: 16,
+    backgroundColor: "#fafbff",
+    color: "#333",
   },
 
   loginButton: {
     backgroundColor: "#4a90e2",
     padding: 16,
-    borderRadius: 15,
+    borderRadius: 14,
     alignItems: "center",
-    marginTop: 10,
-  },
-
-  registerButton: {
-    backgroundColor: "#50c878",
-    padding: 16,
-    borderRadius: 15,
-    alignItems: "center",
-    marginTop: 15,
+    marginTop: 6,
   },
 
   loginButtonText: {
     color: "white",
-    fontSize: 18,
+    fontSize: 17,
+    fontWeight: "bold",
+  },
+
+  divider: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginVertical: 18,
+  },
+
+  dividerLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: "#e8e8e8",
+  },
+
+  dividerText: {
+    marginHorizontal: 12,
+    color: "#aaa",
+    fontSize: 14,
+  },
+
+  registerButton: {
+    borderWidth: 1.5,
+    borderColor: "#4a90e2",
+    padding: 16,
+    borderRadius: 14,
+    alignItems: "center",
+  },
+
+  registerButtonText: {
+    color: "#4a90e2",
+    fontSize: 17,
     fontWeight: "bold",
   },
 
