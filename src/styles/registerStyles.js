@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#f2f6ff",
-    padding: 20,
+    padding: 24,
   },
 
   card: {
@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     borderRadius: 25,
     padding: 25,
-
     shadowColor: "#000",
     shadowOpacity: 0.1,
     shadowRadius: 10,
@@ -23,49 +22,60 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontSize: 34,
+    fontSize: 30,
     fontWeight: "bold",
     textAlign: "center",
-    marginBottom: 10,
+    marginBottom: 6,
     color: "#4a90e2",
   },
 
   subtitle: {
     textAlign: "center",
-    marginBottom: 30,
-    color: "gray",
-    fontSize: 16,
+    marginBottom: 24,
+    color: "#888",
+    fontSize: 15,
   },
 
   input: {
-    borderWidth: 1,
-    borderColor: "#ddd",
-    borderRadius: 15,
-    padding: 15,
-    marginBottom: 15,
-    fontSize: 18,
-    backgroundColor: "#fafafa",
+    borderWidth: 1.5,
+    borderColor: "#e0e6f0",
+    borderRadius: 14,
+    padding: 14,
+    marginBottom: 12,
+    fontSize: 16,
+    backgroundColor: "#fafbff",
+    color: "#333",
+  },
+
+  dateButton: {
+    justifyContent: "center",
+  },
+
+  dateText: {
+    fontSize: 16,
+    color: "#555",
   },
 
   button: {
-    backgroundColor: "#50c878",
+    backgroundColor: "#4CAF50",
     padding: 16,
-    borderRadius: 15,
+    borderRadius: 14,
     alignItems: "center",
-    marginTop: 10,
+    marginTop: 8,
   },
 
   buttonText: {
     color: "white",
-    fontSize: 18,
+    fontSize: 17,
     fontWeight: "bold",
   },
 
   backText: {
-    marginTop: 20,
+    marginTop: 18,
     textAlign: "center",
     color: "#4a90e2",
     fontWeight: "bold",
+    fontSize: 15,
   },
 
 });
