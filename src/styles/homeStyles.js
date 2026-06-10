@@ -112,6 +112,28 @@ const styles = StyleSheet.create({
     color: "white",
   },
 
+  leaderboardButton: {
+    width: "100%",
+    backgroundColor: "white",
+    borderRadius: 16,
+    paddingVertical: 14,
+    alignItems: "center",
+    marginTop: 4,
+    marginBottom: 8,
+    borderWidth: 1.5,
+    borderColor: "#4a90e2",
+    shadowColor: "#000",
+    shadowOpacity: 0.06,
+    shadowRadius: 6,
+    elevation: 3,
+  },
+
+  leaderboardButtonText: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: "#4a90e2",
+  },
+
   grid: {
     width: "100%",
     flexDirection: "row",

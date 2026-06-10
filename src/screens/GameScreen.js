@@ -22,7 +22,7 @@ const DIFFICULTY_CONFIG = {
 
 export default function GameScreen() {
   const { operation, difficulty = "medium" } = useLocalSearchParams();
-  const { user, refreshProfile } = useAuth();
+  const { user } = useAuth();
   const config = DIFFICULTY_CONFIG[difficulty] ?? DIFFICULTY_CONFIG.medium;
 
   const [a, setA] = useState(0);
@@ -91,7 +91,6 @@ export default function GameScreen() {
             await updateDoc(doc(db, "users", user.uid), {
               totalScore: increment(config.points),
             });
-            refreshProfile();
           } catch (_) {}
         }
 

@@ -85,6 +85,13 @@ export default function HomeScreen() {
         ))}
       </View>
 
+      <TouchableOpacity
+        style={styles.leaderboardButton}
+        onPress={() => router.push("/leaderboard")}
+      >
+        <Text style={styles.leaderboardButtonText}>🏆 לוח תוצאות</Text>
+      </TouchableOpacity>
+
       <Text style={styles.sectionLabel}>בחר תרגיל</Text>
       <View style={styles.grid}>
         {OPERATIONS.map((item, idx) => (
